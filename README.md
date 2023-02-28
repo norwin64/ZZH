@@ -6,7 +6,6 @@ Game of Zicke Zacke Hühnerkacke
 
 # File structure
 
-> -
 > 
 > 
 > > static
