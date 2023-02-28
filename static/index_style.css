@@ -1,0 +1,103 @@
+
+body {
+  font_family: "Changa", "Arial";
+  background: radial-gradient(ellipse at center, #1ece14, #1BB712 50%, #14890d 95%) no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    width: 800px;
+    height: 260px;
+    margin-left: -400px;
+    background: url("images/logo.png") center center no-repeat;
+    background-size: contain;
+    animation: pulse 2s ease-in-out infinite;
+
+}
+
+.button {
+    position: absolute;
+    text-align: center;
+    background: yellow;
+    border-radius: 15px;
+    border-bottom: 8px solid #a1a130;
+    margin-top: 390px;
+    color: #888a34;
+    line-height: text;
+    font-size: 50px;
+    cursor: pointer;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    transition: font-size 0.3 ease;
+}
+
+.button:hover {
+    font-size: 70px;
+}
+
+.bottom_bar {
+    text-align:center;
+    font-size: 31px;
+    position: absolute;
+    color: #888a34;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 20px;
+    width:15%;
+    padding-bottom: 7%;
+    border-radius:10px;
+    transition: font-size 0.3 ease;
+    bottom: -50px;
+    cursor:pointer;
+}
+
+#button_shop {
+    left: 30%;
+}
+
+#tutorial{
+    left: 10%;
+}
+
+#button_stats{
+    left: 50%;
+}
+
+#button_settings{
+    left: 70%;
+}
+
+.bottom_bar:hover {
+    font-size: 35px;
+    left:9%;
+    padding:22px;
+    padding-bottom:11%;
+}
+
+#login_button {
+    position:absolute;
+    color:white;
+    right:35px;
+    top:50px;
+    font-size:19px;
+    cursor:pointer;
+    text-decoration: underline;
+}

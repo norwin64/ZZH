@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="/static/images/logo_tab.png">
+    <meta charset="UTF-8">
+    <title>Zicke Zacke Hühnerkacke Game</title>
+    <link rel="stylesheet" href="/static/index_style.css">
+</head>
+<body>
+    <div id="pre_game" style="display: block"></div>
+        <div class="logo"></div>
+        <form action="{{ url_for('game') }}">
+            <button class="button" type="submit">PLAY</button>
+        </form>
+        <a href="https://www.youtube.com/watch?v=yTolHH29s9Y" target="_blank" id="tutorial" class="bottom_bar" title="">TUTORIAL</a>
+        <div id="button_shop" class="bottom_bar" onclick="open_shop()">SKINS</div>
+        <div id="button_settings" class="bottom_bar" onclick="open_settings()">Settings</div>
+        <div id="button_stats" class="bottom_bar" onclick="open_stats()">Statistic</div>
+        <div id="login_button" onclick="login()">Login/ Registrieren</div>
+</body>
+</html>
